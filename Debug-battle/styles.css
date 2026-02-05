@@ -21,6 +21,7 @@ body {
   color: #1a1a1a;
   line-height: 1.6;
   background-color: #ffffff;
+ 
 }
 
 a {
@@ -377,7 +378,7 @@ img {
 
 .about-content p {
   font-size: 14px;
-  width: 500px;
+  /* width: 500px; */
   line-height: 1.9;
   color: #666666;
   margin-bottom: 30px;
@@ -514,7 +515,7 @@ img {
   line-height: 1.6;
 }
 
-.careers-title {
+#careers-title {
   font-size: clamp(28px, 3vw, 60px);
   font-weight: 700;
   letter-spacing: 2px;
@@ -643,7 +644,7 @@ img {
   /* transform: rotateY(180deg); */
 }
 
-.news-grid-container {
+.news-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
@@ -862,13 +863,13 @@ img {
 /*  Responsive Design  */
 
 /* Tablet - Large */
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   .header-container {
     padding: 14px 24px;
   }
 
   .hero-bg img {
-    /* object-position: right; */
+    object-position: right;
   }
 
   .nav .nav-list {
@@ -893,7 +894,7 @@ img {
   }
 
   .gallery-grid {
-    /* height: auto; */
+    height: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
