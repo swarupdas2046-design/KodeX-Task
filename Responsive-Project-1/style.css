@@ -41,13 +41,14 @@ main {
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 0rem;
   padding-top: 5rem;
   padding-inline: 0.8rem;
 }
 main nav {
   width: 100%;
-  display: flex;
   z-index: 100;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1.2rem 1.4rem;
@@ -127,6 +128,7 @@ main .hero button:hover {
 }
 main .about {
   display: flex;
+  align-items: normal;
   flex-direction: column;
   gap: 1rem;
   padding: 1rem;
@@ -160,9 +162,9 @@ main .second .card1 {
   width: 85%;
   border-radius: 1rem;
   display: flex;
-  gap: 1rem;
   align-items: center;
   flex-direction: column;
+  gap: 1rem;
 }
 main .second .card1 p {
   text-align: center;
@@ -240,8 +242,8 @@ main .fourth {
   width: 100%;
   display: flex;
   align-items: center;
-  gap: 1rem;
   flex-direction: column;
+  gap: 1rem;
   margin-top: 1.5rem;
 }
 main .fourth .top {
@@ -249,6 +251,7 @@ main .fourth .top {
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 0rem;
   padding: 0.89rem;
 }
 main .fourth .top button {
@@ -260,8 +263,8 @@ main .fourth .top .explore {
   width: 100%;
   display: flex;
   align-items: center;
-  gap: 1rem;
   flex-direction: column;
+  gap: 1rem;
 }
 main .fourth .top .explore p {
   width: 80%;
@@ -283,6 +286,11 @@ main .fourth .mid {
 }
 main .fourth .mid img {
   width: 100%;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+main .fourth .mid img:hover {
+  transform: scale(1.08);
 }
 main .fourth .bottom {
   width: 85%;
@@ -291,6 +299,7 @@ main .fourth .bottom {
 main .fourth .bottom img {
   width: 100%;
   border-radius: 1rem;
+  cursor: pointer;
 }
 main .fourth .bottom p {
   margin-bottom: 1rem;
