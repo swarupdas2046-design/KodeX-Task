@@ -1,0 +1,450 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.hero {
+  max-width: 1900px;
+}
+
+.about {
+  max-width: 1900px;
+}
+
+.second {
+  max-width: 1900px;
+}
+
+.third {
+  max-width: 1900px;
+}
+
+.fourth {
+  max-width: 1900px;
+}
+
+main {
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5rem;
+  padding-inline: 0.8rem;
+}
+main nav {
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 1.4rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: whitesmoke;
+}
+main nav h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+main nav .mid {
+  display: none;
+  gap: 2.5rem;
+}
+main nav .mid button {
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  color: black;
+  border-radius: 0.8rem;
+  font-size: 1.1rem;
+}
+main nav .mid button:hover {
+  border: 1px solid black;
+}
+main nav button {
+  display: none;
+  background-color: black;
+  padding: 0.8rem 2rem;
+  border: none;
+  color: white;
+  border-radius: 1.5rem;
+  font-size: 1.1rem;
+}
+main nav i {
+  font-size: 1.5rem;
+}
+main .hero {
+  height: 70%;
+  width: 100%;
+  background-image: url(https://i.pinimg.com/736x/3d/78/f4/3d78f4a6a8acee6569ed9d87eee3e974.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 1rem;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+main .hero h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+main .hero p {
+  opacity: 0.8;
+  font-size: 0.8rem;
+  text-align: center;
+}
+main .hero button {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: black;
+  padding: 0.5rem 0.8rem;
+  border: none;
+  color: white;
+  border-radius: 1rem;
+  margin-bottom: 23rem;
+}
+main .hero button:hover {
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+}
+main .about {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+main .about button {
+  padding: 0.5rem 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+main .about p {
+  opacity: 0.8;
+  font-size: 1rem;
+}
+main .second {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+main .second .card1 {
+  background-color: #0d1a2d;
+  color: whitesmoke;
+  padding: 1.5rem;
+  width: 85%;
+  border-radius: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-direction: column;
+}
+main .second .card1 p {
+  text-align: center;
+}
+main .second .card1 button {
+  background-color: whitesmoke;
+  color: black;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.3rem 2.5rem;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 1rem;
+}
+main .second .card2 {
+  width: 85%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+main .second .card2 img {
+  width: 100%;
+}
+main .second .card3 {
+  width: 85%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+main .second .card3 img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .third {
+  width: 100%;
+  padding: 0.5rem;
+}
+main .third h2 {
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+main .third .numbers {
+  display: flex;
+  flex-direction: column;
+}
+main .third .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 0.7rem;
+}
+main .third .top h3 {
+  font-weight: 600;
+}
+main .third .top p {
+  opacity: 0.5;
+}
+main .third .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+main .third .bottom h3 {
+  font-weight: 600;
+}
+main .third .bottom p {
+  opacity: 0.5;
+}
+main .fourth {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+main .fourth .top {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.89rem;
+}
+main .fourth .top button {
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+main .fourth .top .explore {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+}
+main .fourth .top .explore p {
+  width: 80%;
+  font-size: 1.3rem;
+  text-align: center;
+}
+main .fourth .top .explore button {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.4rem 1.5rem;
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
+}
+main .fourth .mid {
+  width: 85%;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+main .fourth .mid img {
+  width: 100%;
+}
+main .fourth .bottom {
+  width: 85%;
+  padding: 0.5rem;
+}
+main .fourth .bottom img {
+  width: 100%;
+  border-radius: 1rem;
+}
+main .fourth .bottom p {
+  margin-bottom: 1rem;
+  width: 70%;
+}
+main .fourth .bottom .arrow {
+  display: flex;
+  gap: 1.2rem;
+}
+main .fourth .bottom .arrow i {
+  padding: 0.8rem;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+}
+
+@media (min-width: 900px) {
+  main {
+    padding-inline: 1.5rem;
+    padding-top: 6rem;
+  }
+  main nav .mid {
+    display: flex;
+  }
+  main nav button {
+    display: block;
+  }
+  main nav i {
+    display: none;
+  }
+  main .hero {
+    width: 100%;
+  }
+  main .hero h1 {
+    font-size: 2.6rem;
+    width: 43%;
+    line-height: 1.1;
+  }
+  main .hero p {
+    font-size: 1.2rem;
+    width: 50%;
+  }
+  main .about {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  main .about button:hover {
+    border: 1px solid black;
+  }
+  main .about p {
+    font-size: 1.5rem;
+    width: 50%;
+  }
+  main .second {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  main .second .card1 {
+    height: 400px;
+    padding: 2rem;
+    font-size: 1.8rem;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  main .second .card1 p {
+    text-align: left;
+  }
+  main .second .card1 button {
+    padding: 0.5rem 3rem;
+  }
+  main .second .card2 {
+    height: 400px;
+  }
+  main .second .card3 {
+    height: 400px;
+  }
+  main .third {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  main .third h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 1.8rem;
+  }
+  main .third .numbers {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+  }
+  main .third .numbers .top {
+    gap: 9.5rem;
+  }
+  main .third .numbers .top h3 {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  main .third .numbers .top p {
+    opacity: 0.7;
+    font-size: 1.8rem;
+  }
+  main .third .numbers .bottom {
+    gap: 9.5rem;
+  }
+  main .third .numbers .bottom h3 {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  main .third .numbers .bottom p {
+    opacity: 0.7;
+    font-size: 1.8rem;
+  }
+  main .fourth {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+  main .fourth .top {
+    height: 400px;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  main .fourth .top button {
+    padding: 0.6rem 1.8rem;
+    border-radius: 1rem;
+    border: 1px solid gray;
+  }
+  main .fourth .top .explore {
+    align-items: flex-start;
+    gap: 2.5rem;
+  }
+  main .fourth .top .explore p {
+    text-align: left;
+    width: 70%;
+    font-size: 1.7rem;
+  }
+  main .fourth .top .explore button {
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 0.8rem 1.8rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+  }
+  main .fourth .mid {
+    background-color: red;
+    height: 400px;
+  }
+  main .fourth .mid img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .fourth .bottom p {
+    font-size: 1.5rem;
+  }
+}/*# sourceMappingURL=style.css.map */
