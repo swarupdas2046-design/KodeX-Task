@@ -56,3 +56,61 @@
 // })
 // console.log(original);
 
+// 6. From an array of users, return only users who logged in within the last 7 days.
+
+// let Users = [
+//   {
+//     Name: "Swarup Das",
+//     date: "2025-05-15",
+//   },
+//   {
+//     Name: "Shivani Pathak",
+//     date: "2025-05-16",
+//   },
+//   {
+//     Name: "Suresh Nag",
+//     date: "2025-05-10",
+//   },
+//   {
+//     Name: "Suman Karmakar",
+//     date: "2025-05-11",
+//   },
+//   {
+//     Name: "Mitali Deshpandey",
+//     date: "2025-05-18",
+//   },
+// ];
+
+// let current_Date = new Date("2025-05-20");
+// let Last_Date = new Date("2025-05-13");
+
+// let Log_User = Users.filter((elem) => {
+//   let dates = new Date(elem.date);
+
+//   if (dates >= Last_Date && dates <= current_Date) {
+//     return elem;
+//   }
+// });
+
+// console.log(Log_User);
+
+// 7. Filter out duplicate values from an array **without using Set**.
+
+// let array = [1, 2, 45, 77, 1, 2, 44, 77, 55];
+
+// let duplicate = array.filter((val, idx, array) => {
+//   return array.indexOf(val) === idx;
+// });
+// console.log(duplicate);
+
+// 8. From an array of numbers, keep only those which are prime.
+
+let array = [2,5,7,3,11,12,10,44,80]
+
+
+let prime = array.filter((val)=>{
+        if ( (val % 1 == 0) &&( val % val == 0) ) {
+            
+        }
+})
+
