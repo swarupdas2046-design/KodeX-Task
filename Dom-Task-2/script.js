@@ -19,6 +19,7 @@ btn.addEventListener('click',function(){
         img.style.position = 'absolute'
         img.style.left = left_side+'%',
         img.style.top = right_side+'%',
+        console.log(img.getAttribute('src'));
         
     
     main.appendChild(img)
