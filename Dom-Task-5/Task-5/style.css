@@ -1,0 +1,40 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,
+body {
+height: 100%;
+width: 100%,
+}
+body{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: column;
+}
+textarea{
+    padding: 20px;
+    font-size: 25px;
+}
+.box{
+    width: fit-content;
+    background-color: rgb(1, 43, 70);
+    color: rgb(255, 248, 248);
+    padding: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+p{
+    font-size: 30px;
+}
+h1{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    
+}

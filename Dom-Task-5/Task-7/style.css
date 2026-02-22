@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+}
+main button {
+  padding: 15px 35px;
+  border: none;
+  background-color: lightseagreen;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  color: aliceblue;
+  cursor: pointer;
+}
+main button:active {
+  scale: 0.95;
+}/*# sourceMappingURL=style.css.map */

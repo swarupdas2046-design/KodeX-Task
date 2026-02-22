@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  gap: 20px;
+}
+
+.information {
+  height: 100%;
+  width: 30%;
+  background-color: rgb(1, 52, 1);
+  padding-top: 300px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+form input {
+  padding: 25px;
+  outline: none;
+  font-size: 18px;
+}
+form button {
+  padding: 10px 35px;
+  background-color: cyan;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: 20px;
+}
+form button:disabled {
+  cursor: not-allowed;
+  background-color: #ccc;
+  opacity: 0.6;
+}
+form button:hover {
+  scale: 0.95;
+}
+
+.showcase {
+  height: 100%;
+  width: 70%;
+  background-color: rgb(28, 13, 13);
+  padding: 50px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.box {
+  height: 300px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  gap: 10px;
+  background-color: rgb(0, 77, 128);
+  color: black;
+  border-radius: 10px;
+}
+
+.photo {
+  height: 50%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 70% 10%;
+     object-position: 70% 10%;
+}
+
+.dltbtn {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.dltbtn:active {
+  scale: 0.95;
+}/*# sourceMappingURL=style.css.map */
