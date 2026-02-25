@@ -141,4 +141,10 @@ main #right #all-songs .song-card:hover {
     margin-top: 10px;
     font-size: 35px;
   }
+  #player p {
+    position: absolute;
+    left: 2%;
+    bottom: 2%;
+    font-family: credit;
+  }
 }/*# sourceMappingURL=style.css.map */
