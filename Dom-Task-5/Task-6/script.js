@@ -32,5 +32,5 @@ form.addEventListener("submit", function (e) {
   e.preventDefault();
   Card();
     form.reset()
-    btn.disabled = true
+    // btn.disabled = true
 });

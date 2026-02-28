@@ -1,7 +1,7 @@
 # Mixed Advanced JavaScript + DOM Questions
 
 1. **Create a function** that takes an array of numbers and returns only the numbers **greater than the average** of the array.  
-   (Use functions + return + array methods) ✅
+   (Use functions + return + array methods) ✅ 
 
 2. Build a **theme switcher** (Light/Dark) using DOM where the selected theme is saved in **localStorage** and restored after refresh. ✅
 
