@@ -101,6 +101,8 @@ main {
  */
 .product-card {
   width: 300px;
+  height: -moz-fit-content;
+  height: fit-content;
   background: white;
   border-radius: 20px;
   overflow: hidden;
