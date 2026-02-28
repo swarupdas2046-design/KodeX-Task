@@ -5,7 +5,8 @@
   font-family: "Poppins", sans-serif;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   overflow: hidden;
   background: linear-gradient(135deg, #1e1e2f, #111);
@@ -18,9 +19,9 @@ main {
   padding: 20px;
 }
 
-/* =========================
+/* 
    ADD DATA SECTION
-========================= */
+ */
 .add-data {
   flex-shrink: 0;
   max-height: 300px;
@@ -78,9 +79,9 @@ main {
   scale: 0.95;
 }
 
-/* =========================
+/* 
    SHOW DATA
-========================= */
+ */
 .Show-data {
   flex: 1;
   overflow-y: auto;
@@ -95,9 +96,9 @@ main {
   display: none;
 }
 
-/* =========================
+/* 
    PRODUCT CARD
-========================= */
+ */
 .product-card {
   width: 300px;
   background: white;
@@ -191,9 +192,9 @@ main {
   transform: scale(1.05);
 }
 
-/* =========================
+/* 
    MOBILE
-========================= */
+ */
 @media (max-width: 768px) {
   .add-data form {
     flex-direction: column;
