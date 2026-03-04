@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BMI Calculator</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>BMI Calculator</h1>
+
+<!-- INPUT CARD -->
+
+<div class="card input-card">
+
+<h2>Enter Your Details</h2>
+
+<input type="text" id="name" placeholder="Enter your name">
+
+<select id="unit">
+<option value="metric">CM / KG</option>
+<option value="imperial">Feet / LBS</option>
+</select>
+
+<input type="number" id="height" placeholder="Height">
+
+<input type="number" id="weight" placeholder="Weight">
+
+<div class="buttons">
+<button id="calculate">Calculate</button>
+<button id="reset">Reset</button>
+</div>
+
+</div>
+
+
+<!-- RESULT CARD -->
+
+<div class="card result-card">
+
+<h2>Your Result</h2>
+
+<p id="bmiValue">BMI: --</p>
+<p id="category">Category: --</p>
+<p id="suggestion">Suggestion will appear here</p>
+
+</div>
+
+
+<!-- HISTORY CARD -->
+
+<div class="card history-card">
+
+<h2>Calculation History</h2>
+
+<ul id="historyList"></ul>
+
+</div>
+
+<h4>Made by <a href="https://github.com/swarupdas2046-design">Swarup Das</h4>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

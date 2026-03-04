@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  width: 100%;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(244, 244, 244);
+  margin-bottom: 20px;
+}
+
+.card {
+  background: white;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.input-card {
+  background: linear-gradient(145deg, #ffffff, #e6ecff);
+}
+
+.history-card {
+  background: linear-gradient(135deg, #f6f9ff, #e9f1ff);
+}
+
+#historyList::-webkit-scrollbar {
+  display: none;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+}
+
+#calculate {
+  background: #4CAF50;
+}
+
+#reset {
+  background: #f44336;
+}
+
+/* history */
+.history-card ul {
+  list-style: none;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.history-card li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.deleteBtn {
+  flex: none;
+  width: auto;
+  background: red;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.deleteBtn:active {
+  transform: scale(0.98);
+}
+
+h4 {
+  color: #e9f1ff;
+}
+h4 a {
+  color: wheat;
+}
+
+/* BMI colors */
+.underweight {
+  background: #ea08c0;
+  color: white;
+}
+
+.normal {
+  background: #4CAF50;
+  color: white;
+}
+
+.overweight {
+  background: #FF9800;
+  color: white;
+}
+
+.obese {
+  background: #fb5a4e;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
