@@ -231,17 +231,3 @@ const handleOverlayClick = (e) => {
 - Object spread + `delete` — immutable-style map updates
 
 ---
-
-## 🆚 How This Differs from V1
-
-| Aspect | V1 (Postboard) | V2 (Drafts) |
-|---|---|---|
-| Post storage | Array `[]` | Object map `{}` + order array |
-| Post ID generation | `crypto.randomUUID()` | `Date.now().toString()` |
-| Edit flow | Inline sidebar form | Modal overlay |
-| Form pre-fill | `setValue()` in `useEffect` | `defaultValues` in `useForm()` |
-| Live preview | None | `watch()` feeds real-time preview |
-| Delete method | `Array.filter()` | `delete obj[key]` + `filter` |
-| Edit tracking | No timestamp | `updatedAt` added on edit |
-| Card actions | Text buttons always visible | Icon buttons visible on hover |
-| Layout | Sidebar + feed | Full-width grid + modal |
